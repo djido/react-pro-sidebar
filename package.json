@@ -1,7 +1,7 @@
 {
   "name": "react-pro-sidebar",
   "version": "0.6.0",
-  "description": "React sidebar library with dropdown menus and unlimit number of nested submenus",
+  "description": "React sidebar library with dropdown menus and unlimited number of nested submenus",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
@@ -13,7 +13,7 @@
   "private": false,
   "scripts": {
     "clean": "rimraf dist",
-    "build:sass": "node-sass src/scss/styles.scss dist/css/styles.css",
+    "build:sass": "sass src/scss/styles.scss dist/css/styles.css",
     "build": "rollup -c && npm run build:sass",
     "start": "rollup -c -w",
     "start:demo": "cross-env PORT=4747 yarn --cwd ./demo start",
@@ -49,7 +49,7 @@
     "gh-pages": "^3.1.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "node-sass": "^6.0.1",
+    "sass": "^1.49.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.41.2",
